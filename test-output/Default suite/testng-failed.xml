@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="makemytrip.BusBooking">
+        <methods>
+          <include name="user_clicks_on_search"/>
+          <include name="user_clicks_on_travel_date"/>
+          <include name="user_enters_from_address_and_to_address"/>
+          <include name="user_selects_date"/>
+          <include name="user_close_username_popup"/>
+          <include name="user_clicks_on_Continuebutton"/>
+          <include name="launch"/>
+          <include name="user_clicks_on_buses"/>
+        </methods>
+      </class> <!-- makemytrip.BusBooking -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
